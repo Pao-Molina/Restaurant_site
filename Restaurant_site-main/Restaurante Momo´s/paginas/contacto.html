@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <a href="../inicio.html">Ir a la pagína principal</a>
+        <a href="productos.html">Ir a Productos</a>
+        <a href="nosotros.html">Ir a Contactos</a>
+    </div>
+    
+    <div style="text-align: center;">
+        <h1>Contactanos</h1>
+        <p>Podrás comunicarte con nuestro equipo de lunes a miércoles</p>
+        <img src="../imagenes/asistencia.jpg" width="50%">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1362175075255!2d-75.59945432415336!3d6.245773826326665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429a1edbf6793%3A0x892b4e0bdb8700df!2sSushi%20Light%20(Laureles)!5e0!3m2!1ses!2sco!4v1742048030850!5m2!1ses!2sco" width="600" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div style="text-align: center;">
+        <h1>Formulario de Contactos</h1>
+        <form method="get">
+            <label>Ingresa tu nombre</label>
+            <input name="nombre" type="text" placeholder="Escribir en Mayúsculas"><br>
+            <label>Edad:</label>
+            <input name="Edad" type="number" min="18" max="50"><br>
+            <label>Teléfono/Celular</label>
+            <input name="telefono" type="tel"> <br>
+            <label>E-mail:</label>
+            <input name="email" type="email" required><br>
+            <label>Fecha de Nacimiento</label>
+            <input name="Fecha" type="date" min="1950-01-01" max="2006-12-31"><br><br>
+
+            <label>Selecciona tu Genero</label> <br>
+            <input type="radio" name="Genero" value="Femenino">Femenino
+            <input type="radio" name="Genero" value="Masculino">Masculino
+            <input type="radio" name="Genero" value="Otro">Otro<br><br>
+
+            <label>Selecciona método de Contacto</label> <br>
+            <input type="checkbox" name="método" value="telefono">Telefono
+            <input type="checkbox" name="método" value="Correo">Correo
+            <input type="checkbox" name="método" value="Paloma">Paloma mensajera
+            <input type="checkbox" name="método" value="Humo">Señales de Humo <br><br>
+
+            <label>Seleccione un plato</label> <br>
+            <select name="Almuerzo">
+                <option value="Kimchi">Kimchi</option>
+                <option value="Ramen">Ramen</option>
+                <option value="Tokpokki">Tokpokki</option>
+            </select> <br><br>
+
+            <label>Observación</label><br>
+            <textarea name="Observación"></textarea>
+            <br><br>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+            <br><br><br><br>
+        </form>
+    </div>
+    
+</body>
+</html>
